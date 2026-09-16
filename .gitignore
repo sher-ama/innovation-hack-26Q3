@@ -1,0 +1,54 @@
+# Node / frontend
+node_modules/
+frontend/node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+
+# Build outputs
+build/
+dist/
+coverage/
+frontend/dist/
+frontend/build/
+
+# Python / backend
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+backend/venv/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+
+# Logs and local runtime artifacts
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
