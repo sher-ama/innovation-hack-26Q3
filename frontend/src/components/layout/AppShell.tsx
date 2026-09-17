@@ -5,7 +5,6 @@ import '../../styles/global.css'
 import '../chat/chat.css'
 import { ChatHeader } from '../chat/ChatHeader'
 import { ChatWindow } from '../chat/ChatWindow'
-import { FaqPanel } from '../chat/FaqPanel'
 import { MessageInput } from '../chat/MessageInput'
 import { SuggestedPrompts } from '../chat/SuggestedPrompts'
 
@@ -53,7 +52,7 @@ export function AppShell({
           <MessageInput onSendMessage={onSendMessage} isLoading={isLoading} />
         </main>
 
-        <FaqPanel entries={faqEntries} isLoading={isFaqLoading} error={faqError} onRetry={loadFaq} />
+    
       </div>
     </div>
   )
